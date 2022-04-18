@@ -1,0 +1,398 @@
+[
+  {
+    "id": "6",
+    "lastName": "PEREIRA",
+    "firstName": "CESAR",
+    "patronym": "PEREIRA",
+    "gender": "male",
+    "spouseId": "7",
+    "weddingYear": "1980",
+    "weddingMonth": "5",
+    "weddingDay": "25",
+    "birthYear": 1956,
+    "birthMonth": 4,
+    "birthDay": 24,
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "7",
+    "lastName": "PEREIRA",
+    "firstName": "ELIANE",
+    "patronym": "PEREIRA",
+    "gender": "female",
+    "motherId": "9",
+    "fatherId": "8",
+    "spouseId": "6",
+    "weddingYear": "1980",
+    "weddingMonth": "5",
+    "weddingDay": "25",
+    "birthYear": 1962,
+    "birthMonth": 1,
+    "birthDay": 8,
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Ensino M�dio",
+    "occupation": "Vendedora",
+    "families": [
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "2",
+    "lastName": "ANUNCIAÇÃO",
+    "firstName": "FABIANE",
+    "patronym": "PEREIRA",
+    "gender": "female",
+    "spouseId": "1",
+    "weddingYear": "2009",
+    "weddingMonth": "7",
+    "weddingDay": "4",
+    "birthYear": 1981,
+    "birthMonth": 5,
+    "birthDay": 10,
+    "birthPlace": "Taguatinga - DF",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "occupation": "Gerente de Operações",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "11",
+    "lastName": "LINO",
+    "firstName": "GISANE",
+    "patronym": "PERERA",
+    "gender": "female",
+    "spouseId": "10",
+    "weddingYear": "2009",
+    "weddingMonth": "1",
+    "weddingDay": "10",
+    "birthYear": 1981,
+    "birthPlace": "Recife - PE",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "occupation": "Policia Civil",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "10",
+    "lastName": "FILHO",
+    "firstName": "CESAR",
+    "patronym": "PEREIRA",
+    "gender": "male",
+    "motherId": "7",
+    "fatherId": "6",
+    "spouseId": "11",
+    "weddingYear": "2009",
+    "weddingMonth": "1",
+    "weddingDay": "10",
+    "birthYear": 1983,
+    "birthMonth": 6,
+    "birthDay": 29,
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "occupation": "Empres�rio",
+    "image_url": "https://instagram.fcpv3-1.fna.fbcdn.net/v/t51.2885-19/176615774_360450658730270_2347748971644776231_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fcpv3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=7tfspyd1q_oAX-PUVMR&edm=ALCvFkgBAAAA&ccb=7-4&oh=00_AT8J4SaGm-ZQSJn9QRE4cvuBGk_EPT1jlnSUsB1W8bRAiA&oe=62643D0F",
+    "families": [
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "1",
+    "lastName": "PEREIRA",
+    "firstName": "VITOR",
+    "patronym": "PEREIRA",
+    "gender": "male",
+    "motherId": "7",
+    "fatherId": "6",
+    "spouseId": "2",
+    "weddingYear": "2009",
+    "weddingMonth": "7",
+    "weddingDay": "4",
+    "birthYear": 1986,
+    "birthMonth": 2,
+    "birthDay": 19,
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "occupation": "Militar da Aeronautica",
+    "image_url": "https://avatars.githubusercontent.com/u/47868559",
+    "families": [
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "3",
+    "lastName": "DA SILVA",
+    "firstName": "BEATRIZ",
+    "patronym": "SILVA",
+    "gender": "female",
+    "motherId": "2",
+    "stepFatherId": "1",
+    "birthYear": 2002,
+    "birthMonth": 5,
+    "birthDay": 11,
+    "birthPlace": "Savador - BA",
+    "nationality": "Brasil",
+    "education": "Superior Incompleto",
+    "occupation": "Vendedora",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "ANUNCIAÇÃO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "4",
+    "lastName": "PEREIRA",
+    "firstName": "ISABELLA",
+    "patronym": "PEREIRA",
+    "gender": "female",
+    "motherId": "2",
+    "fatherId": "1",
+    "birthYear": 2011,
+    "birthMonth": 11,
+    "birthDay": 18,
+    "birthPlace": "Boa Vista - RR",
+    "nationality": "Brasil",
+    "education": "Ensino Fundamental",
+    "occupation": "Estudante",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "ANUNCIAÇÃO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "12",
+    "lastName": "FILHO",
+    "firstName": "JOYVE",
+    "patronym": "PEREIRA",
+    "gender": "female",
+    "motherId": "11",
+    "fatherId": "10",
+    "birthYear": 2011,
+    "birthMonth": 12,
+    "birthDay": 23,
+    "birthPlace": "Recife - PE",
+    "nationality": "Brasil",
+    "education": "Ensino Fundamental",
+    "occupation": "Estudante",
+    "families": [
+      {
+        "id": "11",
+        "lastName": "LINO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "5",
+    "lastName": "PEREIRA",
+    "firstName": "SAMUEL",
+    "patronym": "PEREIRA",
+    "gender": "male",
+    "motherId": "2",
+    "fatherId": "1",
+    "birthYear": 2013,
+    "birthMonth": 10,
+    "birthDay": 3,
+    "birthPlace": "Jaboatão dos Guararapes - PE",
+    "nationality": "Brasil",
+    "education": "Ensino Fundamental",
+    "occupation": "Estudante",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "ANUNCIAÇÃO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "8",
+    "lastName": "SOUZA",
+    "firstName": "DOYLE",
+    "patronym": "ANGELO",
+    "gender": "male",
+    "spouseId": "9",
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Superior Completo",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "9",
+    "lastName": "BORGES",
+    "firstName": "ARLETE",
+    "patronym": "SOUZA",
+    "gender": "female",
+    "spouseId": "8",
+    "birthPlace": "Governador Valadares - MG",
+    "nationality": "Brasil",
+    "education": "Ensino M�dio",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "13",
+    "lastName": "FILHO",
+    "firstName": "MANUELA",
+    "patronym": "PEREIRA",
+    "gender": "female",
+    "motherId": "11",
+    "fatherId": "10",
+    "birthYear": 2013,
+    "birthMonth": 10,
+    "birthDay": 5,
+    "birthPlace": "Recife - PE",
+    "nationality": "Brasil",
+    "education": "Ensino Fundamental",
+    "occupation": "Estudante",
+    "families": [
+      {
+        "id": "11",
+        "lastName": "LINO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "14",
+    "lastName": "FILHO",
+    "firstName": "CESAR",
+    "patronym": "PEREIRA",
+    "gender": "male",
+    "motherId": "11",
+    "fatherId": "10",
+    "birthYear": 2015,
+    "birthMonth": 7,
+    "birthDay": 20,
+    "birthPlace": "Recife - PE",
+    "nationality": "Brasil",
+    "education": "Ensino Fundamental",
+    "occupation": "Estudante",
+    "families": [
+      {
+        "id": "11",
+        "lastName": "LINO"
+      },
+      {
+        "id": "6",
+        "lastName": "PEREIRA"
+      },
+      {
+        "id": "9",
+        "lastName": "BORGES"
+      },
+      {
+        "id": "8",
+        "lastName": "SOUZA"
+      }
+    ],
+    "isFamilyRoot": false
+  }
+]
