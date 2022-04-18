@@ -23,8 +23,8 @@ const HomePage: NextPage = () => {
             </span>
           </div>
           <span className={classNames(style.description, style.descriptionItem)}>
-            Esta árvore genealógica foi desenvolvida com o intuito de apresentar um modelo de viável de visualização de
-            dados de uma família.
+            Eu Vitor Pereira, desenvolvi esta árvore genealógica foi desenvolvida com o intuito de apresentar um modelo
+            de viável de visualização de dados de uma família.
           </span>
           <span className={classNames(style.description, style.descriptionItem)}>
             Utilizei Next.js como framework para a criação do site.
