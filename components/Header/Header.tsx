@@ -43,7 +43,7 @@ const Header: FC = () => {
   return (
     <header className={style.navbar}>
       <div className={style.logoContainer}>
-        <Image src="/favicon.ico" width={40} height={34} alt="Логотип проекта древо" />
+        <Image src="/favicon.ico" width={40} height={34} alt="Logo projeto árvore genealógica" />
         <span className={style.logoTitle}>VOP Tree</span>
       </div>
       <nav className={style.navigation}>

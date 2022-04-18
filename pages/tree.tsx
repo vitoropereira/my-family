@@ -24,8 +24,8 @@ const TreePage: NextPage = () => {
     } else {
       setRootName(treeNodesMap[1].data.fullName);
     }
-  }, [rootId]);
-  console.log(rootId);
+  }, [rootId, treeNodesMap]);
+
   if (rootId && (familiesMap[rootId] === undefined || treeNodesMap[rootId] === undefined)) {
     router.push("./404");
     return null;

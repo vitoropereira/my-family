@@ -27,9 +27,7 @@ const getName = (relationType: RelationType, relationInfo: RelationInfo, isLast:
     }
     case RelationType.Children: {
       if (relationInfo.type === RelType.adopted) {
-        return isLast
-          ? `${relationInfo.firstName} (приемный ребенок)`
-          : `${relationInfo.firstName} (приемный ребенок),`;
+        return isLast ? `${relationInfo.firstName} (Filho Adotado)` : `${relationInfo.firstName} (Filho Adotado),`;
       } else {
         return isLast ? relationInfo.firstName : `${relationInfo.firstName},`;
       }

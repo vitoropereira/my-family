@@ -15,7 +15,7 @@ const FamiliesPage: NextPage = () => {
         <div className={style.descriptionContainer}>
           <div className={classNames(style.titleContainer, style.descriptionItem)}>
             <div className={style.logoContainer}>
-              <Image src="/LogoBig.png" width={120} height={110} alt="logo tipo do projeto da árvore" />
+              <Image src="/favicon.ico" width={120} height={120} alt="logo tipo do projeto da árvore" />
             </div>
             <span className={style.logoTitle}>FAMÍLIAS NO PROJETO</span>
           </div>

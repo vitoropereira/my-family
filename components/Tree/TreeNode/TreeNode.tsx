@@ -46,7 +46,7 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
             [style.hasSubtree]: node.hasSubTree,
           })}
         >
-          <Image src={!image_url ? avatar : image_url} width="45" height="45" alt="Avatar" />
+          <Image src={!image_url ? avatar : image_url} width="60" height="60" alt="Avatar" />
 
           <div className={style.fullName}>
             <span className={style.firstName}>{firstName}</span>

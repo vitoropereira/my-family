@@ -11,7 +11,7 @@ export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName
 
   return families.length > 0 ? (
     <>
-      <span className={styles.familyLinksTitle}>{`${fullName} является потомком семей:`}</span>
+      <span className={styles.familyLinksTitle}>{`${fullName} é descendente de famílias:`}</span>
       <div className={styles.familyLinksContainer}>
         {families.map((family) => {
           if (rootId === family.id) {
