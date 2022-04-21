@@ -5,7 +5,7 @@ import { ExtNode } from "@/lib/relatives-tree/types";
 import { TreeExternalNode } from "@/types/tree";
 import dynamic from "next/dynamic";
 import { FC, memo } from "react";
-import s from "./Tree.module.css";
+import style from "./Tree.module.css";
 import TreeNode from "./TreeNode/TreeNode";
 
 const ReactFamilyTree = dynamic(() => import("@/lib/react-family-tree"), {
@@ -25,7 +25,7 @@ const Tree: FC = () => {
       rootId={rootId ?? nodes[0].id}
       width={TREE_NODE_SIZE}
       height={TREE_NODE_SIZE}
-      className={s.root}
+      className={style.root}
       renderNode={(node: ExtNode) => (
         <TreeNode
           isSelected={selectedNodeId === node.id}

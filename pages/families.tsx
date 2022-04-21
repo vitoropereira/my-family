@@ -1,6 +1,6 @@
 import FamilyLink from "@/components/FamilyLink/FamilyLink";
 import { getFamiliesArray } from "@/data";
-import ballS from "@/styles/Ball.module.css";
+import Tree from "@/styles/Tree.module.css";
 import style from "@/styles/FamiliesPage.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
@@ -8,7 +8,6 @@ import Image from "next/image";
 
 const FamiliesPage: NextPage = () => {
   const familiesMap = getFamiliesArray();
-
   return (
     <div className={style.pageContainer}>
       <div className={style.content}>
@@ -29,11 +28,11 @@ const FamiliesPage: NextPage = () => {
         </div>
       </div>
       <div className={style.imageContainer}>
-        <div className={ballS.ball1} />
-        <div className={ballS.ball2} />
-        <div className={ballS.ball3} />
-        <div className={ballS.ball4} />
-        <div className={ballS.ball5} />
+        <div className={Tree.tree1} />
+        <div className={Tree.tree2} />
+        <div className={Tree.tree3} />
+        <div className={Tree.tree4} />
+        <div className={Tree.tree5} />
       </div>
     </div>
   );

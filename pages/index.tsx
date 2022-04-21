@@ -1,7 +1,7 @@
 import Button from "@/components/Button/Button";
 import { getFamiliesCount, getNodesCount, getTreeDepth } from "@/components/Widget/utils";
 import Widget from "@/components/Widget/Widget";
-import ballS from "@/styles/Ball.module.css";
+import Tree from "@/styles/Tree.module.css";
 import style from "@/styles/HomePage.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
@@ -23,14 +23,22 @@ const HomePage: NextPage = () => {
             </span>
           </div>
           <span className={classNames(style.description, style.descriptionItem)}>
-            Eu Vitor Pereira, desenvolvi esta árvore genealógica foi desenvolvida com o intuito de apresentar um modelo
-            de viável de visualização de dados de uma família.
+            Eu Vitor Pereira, desenvolvi este site de árvore genealógica com o intuito de apresentar um modelo viável de
+            visualização de dados de uma família.
           </span>
           <span className={classNames(style.description, style.descriptionItem)}>
-            Utilizei Next.js como framework para a criação do site.
+            Utilizei Next.js, com Typescript, como framework para a criação do site.
           </span>
           <span className={classNames(style.description, style.descriptionItem)}>
-            O código-fonte está disponível no repositório do projeto.
+            O código-fonte está disponível no repositório do projeto.{" "}
+            <a
+              href="https://github.com/vitoropereira/my-family"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={classNames(style.ancora)}
+            >
+              Acesse aqui
+            </a>
           </span>
           <div className={style.buttonsContainer}>
             <Button href="/tree" text="ver árvore" className={style.descriptionItem} />
@@ -44,17 +52,17 @@ const HomePage: NextPage = () => {
           </div>
         </div>
         <div className={style.widgets}>
-          <Widget title="Total de Pessoa" value={nodesCount.toString()} />
+          <Widget title="Total de Pessoas" value={nodesCount.toString()} />
           <Widget title="Gerações em uma árvore" value={treeDepth.toString()} />
           <Widget title="Famílias diferentes" value={familiesCount.toString()} />
         </div>
       </div>
       <div className={style.imageContainer}>
-        <div className={ballS.ball1} />
-        <div className={ballS.ball2} />
-        <div className={ballS.ball3} />
-        <div className={ballS.ball4} />
-        <div className={ballS.ball5} />
+        <div className={Tree.tree1} />
+        <div className={Tree.tree2} />
+        <div className={Tree.tree3} />
+        <div className={Tree.tree4} />
+        <div className={Tree.tree5} />
       </div>
     </div>
   );
