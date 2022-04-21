@@ -51,6 +51,17 @@
   overflow-x: auto;
 }
 
+.ancora{
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.ancora:hover{
+  color: #00239d;
+  text-decoration: underline;
+}
 @media (max-height: 860px) {
   .content {
     height: fit-content;

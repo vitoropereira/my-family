@@ -2,9 +2,8 @@ import NextHead from "next/head";
 import Script from "next/script";
 import React from "react";
 
-const description = `ДРЕВО – это открытый групповой проект по восстановлению
-генеалогических связей и сборе информации о происхождении семьи
-Артемовых и родстве с другими семьями.`;
+const description = `Eu Vitor Pereira, desenvolvi este site de árvore genealógica com o intuito de apresentar um modelo viável de
+visualização de dados de uma família.`;
 
 export const PageHead = () => (
   <>

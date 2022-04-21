@@ -8,7 +8,7 @@ export const readNodesFromJson = (): TreeNode[] => {
   const nodeDataMap = Object.fromEntries(nodesData.map((nodeData) => [nodeData.id, nodeData]));
   const treeNodes: TreeNode[] = nodesRelations.map((node) => {
     const data = nodeDataMap[node.id];
-    console.log(node);
+
     return {
       ...node,
       gender: data.gender,

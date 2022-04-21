@@ -1,4 +1,4 @@
-.ball1 {
+.tree1 {
   width: 280px;
   height: 280px;
   position: absolute;
@@ -28,7 +28,7 @@
     transform: translate(0);
   }
 }
-.ball2 {
+.tree2 {
   width: 140px;
   height: 140px;
   position: absolute;
@@ -62,7 +62,7 @@
     transform: translate(0);
   }
 }
-.ball3 {
+.tree3 {
   width: 80px;
   height: 80px;
   position: absolute;
@@ -96,7 +96,7 @@
     transform: translate(0);
   }
 }
-.ball4 {
+.tree4 {
   width: 120px;
   height: 120px;
   position: absolute;
@@ -130,7 +130,7 @@
     transform: translate(0);
   }
 }
-.ball5 {
+.tree5 {
   width: 25px;
   height: 25px;
   position: absolute;
