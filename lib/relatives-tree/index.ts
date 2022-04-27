@@ -17,7 +17,6 @@ const calcTree = (nodes: readonly Node[], options: Options): RelData => {
   if (options.placeholders) placeholders(store);
 
   const families = calcFamilies(store).familiesArray;
-
   return {
     families: families,
     canvas: getCanvasSize(families),

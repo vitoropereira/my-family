@@ -27,6 +27,7 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
         width: width,
         height: height,
         transform: getTreeNodeStyleTransform(node, width, height),
+        zIndex: isSelected ? 1 : 0,
       }}
       className={style.root}
     >
@@ -46,13 +47,21 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
             [style.hasSubtree]: node.hasSubTree,
           })}
         >
-          <Image src={!image_url ? avatar : image_url} width="60" height="60" alt="Avatar" />
+          <Image
+            className={classNames(style.imageAvatar)}
+            src={!image_url ? avatar : image_url}
+            width="85"
+            height="85"
+            alt="Avatar"
+          />
 
           <div className={style.fullName}>
-            <span className={style.firstName}>{firstName}</span>
-            <span className={style.lastName}>{lastName}</span>
+            <span className={style.firstName}>
+              {firstName} {lastName}
+            </span>
+            <span className={style.lastName}></span>
+            <TreeNodeYears birthYear={birthYear} deathYear={deathYear} />
           </div>
-          <TreeNodeYears birthYear={birthYear} deathYear={deathYear} />
         </button>
       </div>
     </div>
