@@ -1,109 +1,121 @@
 .root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
 }
 
 .inner {
-  width: 160px;
-  height: 160px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: radial-gradient(96% 96% at 70.4% 31.2%, #3244e8 0%, rgba(0, 2, 16, 0) 100%),
-    linear-gradient(0deg, #030092, #030092);
-  color: var(--main-font-color);
-  border-radius: 20%;
-  padding: 8px;
-  font-size: 14px;
-  line-height: 24px;
+    width: 280px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #3244e8 0%, rgba(0, 2, 16, 0) 100%), linear-gradient(0deg, #030092, #030092);
+    color: var(--main-font-color);
+    border-radius: 25px;
+    padding: 8px;
+    padding-left: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    z-index: 1;
 }
 
 .inner.hasSubtree::before {
-  content: "";
-  display: block;
-  min-width: 180px;
-  min-height: 180px;
-  position: absolute;
+    content: "";
+    display: block;
+    min-width: 120px;
+    min-height: 120px;
+    position: absolute;
+    margin-right: 135px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(180deg, #ffd422 0%, #ff7d05 40%, rgba(0, 0, 0, 0) 90%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
 
-  border-radius: 50%;
-  padding: 3px;
-  background: linear-gradient(180deg, #ffd422 0%, #ff7d05 40%, rgba(0, 0, 0, 0) 90%);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-}
 .inner.animated::before {
-  animation: rotation 5s infinite linear;
+    animation: rotation 5s infinite linear;
 }
+
 @keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
 .inner.animated {
-  animation: float 3s linear infinite alternate both;
+    animation: float 3s linear infinite alternate both;
 }
+
 @keyframes float {
-  0% {
-    transform: translate(0);
-  }
-  20% {
-    transform: translate(-3px, -3px);
-  }
-  40% {
-    transform: translate(-3px, 3px);
-  }
-  60% {
-    transform: translate(0px, 3px);
-  }
-  80% {
-    transform: translate(3px, 0px);
-  }
-  100% {
-    transform: translate(0);
-  }
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-3px, -3px);
+    }
+    40% {
+        transform: translate(-3px, 3px);
+    }
+    60% {
+        transform: translate(0px, 3px);
+    }
+    80% {
+        transform: translate(3px, 0px);
+    }
+    100% {
+        transform: translate(0);
+    }
 }
+
 .scalingWrapper {
-  transition: all 0.8s ease-in-out;
-  cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
 }
+
 .selected {
-  transform: scale(1.4);
-  cursor: default;
+    transform: scale(1.4);
+    cursor: default;
+    z-index: 999;
 }
 
 .male {
-  box-shadow: 0px 10.4918px 209.836px #2300f8, inset 0px 5.2459px 26.2295px rgba(255, 255, 255, 0.58),
-    inset 26.2295px 41.9672px 52.459px rgba(130, 5, 255, 0.95);
+    box-shadow: 0px -10px 60px rgba(0, 132, 255, 0.48), inset 0px 0px 0px rgba(255, 255, 255, 0.58), inset -1px 10px 10px rgba(0, 132, 255);
 }
 
 .female {
-  box-shadow: 0px 3.65714px 73.1429px rgba(248, 0, 119, 0.48), inset 0px 1.82857px 9.14286px rgba(255, 255, 255, 0.58),
-    inset 9.14286px 18.2857px 91.4286px #ff0505;
+    box-shadow: 0px -10px 60px rgba(248, 0, 119, 0.48), inset 0px 0px 0px rgba(255, 255, 255, 0.58), inset -1px 10px 10px rgb(248, 0, 119);
 }
 
 .fullName {
-  display: flex;
-  flex-direction: column;
-  font-weight: bold;
-  letter-spacing: 0.15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    letter-spacing: 0.15px;
 }
 
 .years {
-  letter-spacing: 0.44px;
+    letter-spacing: 0.44px;
 }
 
 @media (max-width: 700px) {
-  .inner.hasSubtree::before {
-    animation: rotation 5s infinite linear;
-  }
+    .inner.hasSubtree::before {
+        animation: rotation 5s infinite linear;
+    }
+}
+
+.imageAvatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }

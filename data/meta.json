@@ -1,28 +1,23 @@
 {
-  "families": [
-    {
-      "id": "2",
-      "lastName": "ANUNCIAÇÃO"
-    },
-    {
-      "id": "9",
-      "lastName": "BORGES"
-    },
-    {
-      "id": "11",
-      "lastName": "LINO"
-    },
-    {
-      "id": "1",
-      "lastName": "PEREIRA"
-    },
-    {
-      "id": "8",
-      "lastName": "SOUZA"
-    },
-    {
-      "id": "15",
-      "lastName": "Teste"
-    }
-  ]
+    "families": [{
+            "id": "2",
+            "lastName": "ANUNCIAÇÃO"
+        },
+        {
+            "id": "9",
+            "lastName": "BORGES"
+        },
+        {
+            "id": "11",
+            "lastName": "LINO"
+        },
+        {
+            "id": "1",
+            "lastName": "PEREIRA"
+        },
+        {
+            "id": "8",
+            "lastName": "SOUZA"
+        }
+    ]
 }

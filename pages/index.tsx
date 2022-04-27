@@ -6,6 +6,7 @@ import style from "@/styles/HomePage.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
+import BioLink from "@/components/Tree/TreeNodeDetails/BioLink/BioLink";
 
 const HomePage: NextPage = () => {
   const nodesCount = getNodesCount();
@@ -27,21 +28,16 @@ const HomePage: NextPage = () => {
             visualização de dados de uma família.
           </span>
           <span className={classNames(style.description, style.descriptionItem)}>
-            Utilizei Next.js, com Typescript, como framework para a criação do site.
+            Utilizei Next.js, com Typescript, como framework para a criação do site. Criei uma página{" "}
+            <BioLink href="./faq" text="Saiba Mais" newTab={true} /> onde coloquei algumas perguntas com suas
+            respectivas respostas.
           </span>
           <span className={classNames(style.description, style.descriptionItem)}>
             O código-fonte está disponível no repositório do projeto.{" "}
-            <a
-              href="https://github.com/vitoropereira/my-family"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={classNames(style.ancora)}
-            >
-              Acesse aqui
-            </a>
+            <BioLink href="https://github.com/vitoropereira/my-family" text="Acesse aqui." newTab={true} />
           </span>
           <div className={style.buttonsContainer}>
-            <Button href="/tree" text="ver árvore" className={style.descriptionItem} />
+            <Button href="/tree" text="Visualizar árvore" className={style.descriptionItem} />
             <Button
               href="https://wa.me/+5581996733973?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20site%20da%20sua%20árvore%20genealógica."
               text="Entrar em contato"

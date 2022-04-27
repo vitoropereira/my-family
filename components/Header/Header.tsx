@@ -17,6 +17,7 @@ const navigation: Navigation[] = [
   { id: 1, title: "Sobre o projeto", path: "/" },
   { id: 2, title: "Árvore", path: "/tree" },
   { id: 3, title: "Famílias", path: "/families" },
+  { id: 4, title: "Saiba Mais", path: "/faq" },
 ];
 
 const Header: FC = () => {
@@ -30,7 +31,7 @@ const Header: FC = () => {
       setSelectedMenuItemId(selectedMenuItem.id);
     }
   }, [router.pathname]);
-
+  console.log(router.pathname);
   const openMenu = () => {
     setMenuOpen(true);
   };

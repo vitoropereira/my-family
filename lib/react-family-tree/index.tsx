@@ -32,6 +32,7 @@ export default React.memo<Props>(function ReactFamilyTree(props) {
     setRootCoords({ x, y });
   }, [data, height, setRootCoords, width]);
 
+  console.log(data);
   return (
     <div
       className={props.className}

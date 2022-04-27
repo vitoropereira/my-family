@@ -58,9 +58,8 @@ const TreeNodeDetails: FC = () => {
         <h2 className={style.name}>{nodeDetails.fullName}</h2>
         {hasSubTree && (
           <span className={style.hasSubTreeNote}>
-            Nem todos os ancestrais são visíveis na árvore.
-            <br /> Na guia Famílias, você pode ver
-            <wbr /> quem vem de {nodeDetails.firstName}.
+            Nem todos os ancestrais são visíveis nesta árvore.
+            <br /> Na aba Famílias, você consegue ver os outros <wbr /> familiares de {nodeDetails.firstName}.
           </span>
         )}
       </div>
