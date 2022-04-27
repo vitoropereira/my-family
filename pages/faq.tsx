@@ -27,7 +27,7 @@ const questions = [
     answer: (
       <BioLink
         href="https://wa.me/+5581996733973?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20site%20da%20sua%20árvore%20genealógica."
-        text="Me envie uma mensagem para o meu WhatsApp"
+        text="Envie uma mensagem para o meu WhatsApp"
         newTab={true}
       />
     ),
@@ -42,7 +42,7 @@ const questions = [
         ajudar e complementar madeira,{" "}
         <BioLink
           href="https://wa.me/+5581996733973?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20site%20da%20sua%20árvore%20genealógica."
-          text="Me envie uma mensagem para o meu WhatsApp"
+          text="Envie uma mensagem para o meu WhatsApp"
           newTab={true}
         />
         .
