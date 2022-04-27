@@ -58,7 +58,6 @@ const questions = [
         seja, as gerações mais antigas estão localizadas mais altas. Os filhos estão localizadas da esquerda para a
         direita do mais velho para mais novo.
         <br />
-        <br />
         <div className={style.pictureWrapper}>
           <Image src={tree} layout="responsive" alt="imagem da árvore completa." />
         </div>
