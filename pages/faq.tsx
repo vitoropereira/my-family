@@ -27,7 +27,7 @@ const questions = [
     answer: (
       <BioLink
         href="https://wa.me/+5581996733973?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20site%20da%20sua%20árvore%20genealógica."
-        text="Escreva para nós no whatsapp."
+        text="Me envie uma mensagem para o meu WhatsApp"
         newTab={true}
       />
     ),
@@ -42,7 +42,7 @@ const questions = [
         ajudar e complementar madeira,{" "}
         <BioLink
           href="https://wa.me/+5581996733973?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20site%20da%20sua%20árvore%20genealógica."
-          text="Escreva para nós no whatsapp."
+          text="Me envie uma mensagem para o meu WhatsApp"
           newTab={true}
         />
         .
@@ -57,7 +57,6 @@ const questions = [
         o tipo de árvore. A árvore contem cada nó de uma pessoa separada. A árvore é construída de cima para baixo, ou
         seja, as gerações mais antigas estão localizadas mais altas. Os filhos estão localizadas da esquerda para a
         direita do mais velho para mais novo.
-        <br />
         <br />
         <div className={style.pictureWrapper}>
           <Image src={tree} layout="responsive" alt="imagem da árvore completa." />
